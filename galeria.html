@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>galeria</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+	<link rel="stylesheet"  href="estilos.css">
+</head>
+
+<body>
+
+<script language="JavaScript" type="text/javascript">
+//<![CDATA[
+hoje = new Date()
+numero_de_textos = 4
+segundos = hoje.getSeconds()
+numero = segundos % numero_de_textos
+if (numero == 0){
+texto = "HOLA"
+}
+if (numero == 01){
+texto = "PINCHE"
+}
+if (numero == 02){
+texto = "PUTITA"
+}
+if (numero == 03){
+texto = "TE PONES BIEN CACHONDA, HIJA DE TU PUTA MADRE"
+}
+document.write('' + texto +'')
+//]]>
+</script>
+
+<h1>hola</h1>
+
+<ul class="galeria">
+	<li><a href="#img1"><img src="5.jpg"></a></li>
+	<li><a href="#img2"><img src="6.jpg"></a></li>
+	<li><a href="#img3"><img src="7.jpg"></a></li>
+	<li><a href="#img4"><img src="8.jpg"></a></li>
+	<li><a href="#img5"><img src="5.gif"></a></li>
+	<li><a href="#img6"><img src="6.gif"></a></li>
+	<li><a href="#img7"><img src="7.gif"></a></li>
+	<li><a href="#img8"><img src="8.gif"></a></li>
+</ul>
+
+<div class="modal" id="img1">
+	<h3>todos</h3>
+	<div class="imagen">
+		<a href="#img8"><</a>
+		<a href="#img2"><img src="5.jpg"></a>
+		<a href="#img2">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img2">
+	<h3>RINO</h3>
+	<div class="imagen">
+		<a href="#img1"><</a>
+		<a href="#img3"><img src="6.jpg"></a>
+		<a href="#img3">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img3">
+	<h3>DUENDE VERDE</h3>
+	<div class="imagen">
+		<a href="#img2"><</a>
+		<a href="#img4"><img src="7.jpg"></a>
+		<a href="#img4">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img4">
+	<h3>CUERVO</h3>
+	<div class="imagen">
+		<a href="#img3"><</a>
+		<a href="#img5"><img src="8.jpg"></a>
+		<a href="#img5">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img5">
+	<h3>CUERVO</h3>
+	<div class="imagen">
+		<a href="#img4"><</a>
+		<a href="#img6"><img src="5.gif"></a>
+		<a href="#img6">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img6">
+	<h3>AHH PERRO</h3>
+	<div class="imagen">
+		<a href="#img5"><</a>
+		<a href="#img7"><img src="6.gif"></a>
+		<a href="#img7">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img7">
+	<h3>TRAIS EL</h3>
+	<div class="imagen">
+		<a href="#img6"><</a>
+		<a href="#img8"><img src="12.gif"></a>
+		<a href="#img8">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+<div class="modal" id="img8">
+	<h3>OVNITRISSSS!!!</h3>
+	<div class="imagen">
+		<a href="#img7"><</a>
+		<a href="#img1"><img src="11.gif"></a>
+		<a href="#img1">></a>
+</div>
+<a class="cerrar" href="">X</a>
+</div>
+
+
+
+
+
+</body>
+</html>
